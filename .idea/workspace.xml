@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b79cbe06-c564-452f-84b8-fb9a0f2c0232" name="Changes" comment="recursion practise">
-      <change afterPath="$PROJECT_DIR$/book grok/dijkstras_algorithm/second_problem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Practise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Practise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b79cbe06-c564-452f-84b8-fb9a0f2c0232" name="Changes" comment="Dijkstra’s algorithm">
+      <change afterPath="$PROJECT_DIR$/book grok/greedy algorithms/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book grok/dijkstras_algorithm/first_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/book grok/dijkstras_algorithm/first_problem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,7 @@
   "keyToString": {
     "Python.Breadth-First Search.executor": "Run",
     "Python.first_problem.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.recursion.executor": "Run",
     "Python.recursion_sum.executor": "Run",
     "Python.second_problem.executor": "Run",
@@ -56,7 +54,7 @@
       <recent name="C:\Users\Windows 11\PycharmProjects\Practise\book grok" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.first_problem">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Breadth-First Search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Practise" />
       <option name="ENV_FILES" value="" />
@@ -101,6 +99,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Practise" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book grok/greedy algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book grok/greedy algorithms/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="recursion_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Practise" />
       <option name="ENV_FILES" value="" />
@@ -128,6 +148,9 @@
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book grok/dijkstras_algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -144,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.first_problem" />
         <item itemvalue="Python.second_problem" />
         <item itemvalue="Python.second_problem" />
         <item itemvalue="Python.Breadth-First Search" />
-        <item itemvalue="Python.recursion_sum" />
       </list>
     </recent_temporary>
   </component>
@@ -184,11 +207,20 @@
       <option name="project" value="LOCAL" />
       <updated>1707764236517</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dijkstra’s algorithm">
+      <option name="closed" value="true" />
+      <created>1708182367656</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708182367656</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="recursion practise" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion practise" />
+    <MESSAGE value="Dijkstra’s algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dijkstra’s algorithm" />
   </component>
 </project>
