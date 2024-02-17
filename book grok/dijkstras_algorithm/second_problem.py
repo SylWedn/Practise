@@ -1,22 +1,43 @@
-graph = {}
-graph["a"] = {}
-graph["a"]["fin"] = 1
-graph["b"] = {}
-graph["b"]["a"] = 3
-graph["b"]["fin"] = 5
-graph["fin"] = {}
-
 infinity = float("inf")
+
+# node
+graph = {}
+
+# weights
+graph["start"] = {}
+graph["start"]["a"] = 5
+graph["start"]["b"] = 2
+graph["a"] = {}
+graph["a"]["c"] = 4
+graph["a"]["d"] = 2
+graph["b"] = {}
+graph["b"]["a"] = 8
+graph["b"]["d"] = 7
+graph["c"] = {}
+graph["c"]["fin"] = 3
+graph["c"]["d"] = 6
+graph["d"] = {}
+graph["d"]["fin"] = 1
+graph["fin"] = {}  # last node doesn't have have neighborhoods
+
+# costs
 costs = {}
-costs["a"] = 6
+costs["a"] = 5
 costs["b"] = 2
+costs["c"] = infinity
+costs["d"] = infinity
 costs["fin"] = infinity
+
+# parents
 
 parents = {}
 parents["a"] = "start"
 parents["b"] = "start"
+parents["c"] = None
+parents["d"] = None
 parents["fin"] = None
 
+# massive for check
 processed = []
 
 
@@ -43,4 +64,7 @@ while node is not None:
         processed.append(node)
         node = find_lowest_costs_node(costs)
 
+print(graph["start"].keys())  # get all neighborhoods start
+print(graph["start"]["a"])  # get weight start -> a
+print(costs["d"])  # get lowest/shortest/cheaper/  costs
 print(costs["fin"])
